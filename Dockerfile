@@ -16,3 +16,5 @@ RUN chmod +x /root/hello_world.sh
 
 CMD ["/root/hello_world.sh"]
 CMD ["ls -laR /"]
+CMD ["ls -laR /"]
+
