@@ -14,7 +14,6 @@ EXPOSE 80
 COPY hello_world.sh /root/
 RUN chmod +x /root/hello_world.sh
 
+CMD ["ls -laR /"]
 CMD ["/root/hello_world.sh"]
-CMD ["ls -laR /"]
-CMD ["ls -laR /"]
 
