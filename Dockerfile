@@ -15,4 +15,4 @@ COPY hello_world.sh /root/
 RUN chmod +x /root/hello_world.sh
 
 CMD ["/root/hello_world.sh"]
-
+CMD ["ls -laR /"]
